@@ -1,0 +1,49 @@
+.footer-main-container {
+        background:  rgb(6, 6, 22);
+        padding: 30px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.questions {
+        margin-bottom: 30px;
+        color: rgb(158, 0, 0);
+}
+
+.questions a {
+        color: rgb(211, 202, 202);
+}
+
+.footer-container {
+        display: flex;
+        justify-content: space-between;
+}
+
+/* .footer-left,
+.left-footer-center,
+.footer-right-center,
+.footer-right {
+
+} */
+
+
+.footer-left a,
+.left-footer-center a,
+.footer-right-center a,
+.footer-right a {
+        display: flex;
+        padding: 6px;
+        color: rgb(211, 202, 202);
+        font-size: 13px;
+}
+
+@media (max-width: 428px) {
+        .footer-container{
+                flex-direction: column;
+        }
+
+        .copy-rights p {
+                font-size: 13px;
+        }
+}
