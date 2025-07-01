@@ -1,151 +1,94 @@
-.logo {
-        height: 30px;
+.sign {
+   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('https://assets.nflxext.com/ffe/siteui/vlv3/8200f588-2e93-4c95-8eab-ebba17821657/web/IN-en-20250616-TRIFECTA-perspective_9cbc87b2-d9bb-4fa8-9f8f-a4fe8fc72545_large.jpg');
 }
-/* Netflix-inspired sign-in form styles */
-.signin-container {
+
+
+.sign-main-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.logo img {
+  width: 180px;
+  margin: 50px 0 0 100px;
+}
+
+.form-container {
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 35px;
+  border-radius: 3px;
+  gap: 25px;
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom:70px;
+}
+
+.checkbox-input {
+  display: flex;
+  gap: 10px;
+  font-size: 17px;
+}
+
+.checkbox-input input[type="checkbox"] {
+  width: 17px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  box-sizing: border-box;
-  max-width: 450px;
-  margin: 10px auto;
-  padding: 60px 68px;
 }
-
-.signin-form {
-  width: 100%;
-}
-
-.signin-form h1 {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 500;
-  margin-bottom: 28px;
-}
-
-.form-group {
-  position: relative;
-  margin-bottom: 16px;
-}
-
-.form-group input {
-  width: 100%;
-  height: 50px;
-  background: #333;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 16px;
-  padding: 16px 20px 0;
-  box-sizing: border-box;
-}
-
-.form-group input:focus {
-  background: #454545;
-  outline: none;
-}
-
-.form-group input.has-value {
-  background: #454545;
-}
-
-.form-group label {
-  position: absolute;
-  top: 50%;
-  left: 20px;
-  transform: translateY(-50%);
-  color: #8c8c8c;
-  font-size: 16px;
-  transition: all 0.2s ease;
-  pointer-events: none;
-}
-
-.form-group input:focus + label,
-.form-group input.has-value + label {
-  top: 15px;
-  font-size: 11px;
-  transform: none;
-}
-
-.signin-button {
-  width: 100%;
-  background: #e50914;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
+form input[type="email"], 
+form input[type="password"] {
   padding: 16px;
-  margin: 24px 0 12px;
-  cursor: pointer;
+        background: rgba(0, 0, 0, 0.4);
+        color: white;
+        border: 0.2px solid rgb(153, 145, 145);
+        border-radius: 3px;
+        width: 100%;
 }
 
-.signin-button:hover {
-  background: #f6121d;
+form input::placeholder {
+  color: rgb(189, 183, 183);
+  font-size: 17px;
 }
 
-.form-options {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #b3b3b3;
-  font-size: 13px;
-  margin-bottom: 50px;
+.butons button {
+  width: 100%;
+  margin-bottom: 6px;
 }
 
-.remember-me {
-  display: flex;
-  align-items: center;
-}
-
-.remember-me input {
-  margin-right: 5px;
-}
-
-.help-link {
-  color: #b3b3b3;
-  text-decoration: none;
-}
-
-.help-link:hover {
-  text-decoration: underline;
-}
-
-.signup-prompt {
-  color: #737373;
-  font-size: 16px;
-  margin-top: 16px;
-}
-
-.signup-prompt a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.signup-prompt a:hover {
-  text-decoration: underline;
-}
-
-.recaptcha-notice {
-  color: #8c8c8c;
-  font-size: 13px;
-  margin-top: 11px;
-}
-
-.recaptcha-notice a {
-  color: #0071eb;
-  text-decoration: none;
-}
-
-.recaptcha-notice a:hover {
-  text-decoration: underline;
-}
-
-.error-message {
-  color: #e87c03;
-  font-size: 14px;
-  margin-bottom: 16px;
-  padding: 10px 20px;
-  background: rgba(232, 124, 3, 0.1);
+.signin-code-btn {
+  background: #000;
+  outline: none;
+  border: none;
   border-radius: 4px;
+}
+
+.or {
+  text-align: center;
+  font-size: 18px;
+  color: rgb(170, 166, 166);
+}
+
+form a {
+  color: white;
+  text-align: center;
+}
+
+.page-protection {
+  color: rgb(170, 166, 166);
+  font-size: 15px;
+}
+
+form .page-protection a {
+  color: #8686f8;
 }

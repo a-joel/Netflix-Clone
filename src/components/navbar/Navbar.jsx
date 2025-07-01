@@ -28,7 +28,7 @@ return (
                                         <p>Ready to watch? Enter your email to create or restart your membership.</p>
                                 </div>
                                <form action="" className="signup">
-                                <input type="email" placeholder="Email address" required/>
+                                <input type="email" placeholder='Email or mobile number' />
                                         <button className="btn btn-danger ">Get Started &gt;</button>
                                </form>
                         </div>

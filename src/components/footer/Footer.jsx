@@ -50,27 +50,6 @@ function Footer() {
         <div className="copy-rights">
                 <p>This page is protected by Joel reCAPTCHA to ensure you're not a bot. <a href=''>Learn more</a> </p>
         </div>
-
-        <div className="accordion-item ">
-            <h2 className="accordion-header gap-5">
-              <button
-                className="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#faq1"
-                aria-expanded="true"
-                aria-controls="faq1"
-              >
-                What is Netflix?
-              </button>
-            </h2>
-            <div id="faq1" className="accordion-collapse  collapse">
-              <div className="accordion-body">
-                Netflix is a streaming service that offers a wide variety of
-                award-winning TV shows, movies, anime, documentaries, and more.
-              </div>
-            </div>
-          </div>
       </div>
     </div>
   )

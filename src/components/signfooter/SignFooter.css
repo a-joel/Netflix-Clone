@@ -1,0 +1,23 @@
+.sign-footer-container {
+        background: #1b1a1a;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 80px 150px;
+        gap: 25px;
+}
+
+.sign-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        column-gap: 300px; /* Adjust this value for the gap between columns */
+        row-gap: 25px;
+        align-items: flex-start;
+}
+
+.sign-footer a {
+        color: rgb(211, 202, 202);
+        font-size: 14px;
+}

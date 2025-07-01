@@ -1,6 +1,6 @@
 .footer-main-container {
         background:  rgb(6, 6, 22);
-        padding: 30px 50px;
+        padding: 30px 50px 130px 50px;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -20,14 +20,6 @@
         justify-content: space-between;
 }
 
-/* .footer-left,
-.left-footer-center,
-.footer-right-center,
-.footer-right {
-
-} */
-
-
 .footer-left a,
 .left-footer-center a,
 .footer-right-center a,
@@ -36,6 +28,10 @@
         padding: 6px;
         color: rgb(211, 202, 202);
         font-size: 13px;
+}
+
+.copy-rights p {
+        color: grey;
 }
 
 @media (max-width: 428px) {
